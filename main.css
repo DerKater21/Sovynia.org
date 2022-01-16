@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&display=swap");
-
 *,
 *::after,
 *::before {
@@ -14,26 +12,18 @@
 }
 
 body {
-  background-color: rgb(199, 198, 198);
-  background: rgb(189, 157, 63);
-  background: linear-gradient(
-    171deg,
-    rgba(189, 157, 63, 1) 0%,
-    rgba(85, 196, 45, 1) 50%,
-    rgba(255, 0, 144, 0.38340643274853803) 100%
-  );
+  background-color: rgb(26, 26, 26);
   font-size: 18px;
-  /* background-image: url("img/772-7722783_power-button-png-removebg-preview.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 120px;
-  background-position: 5% 150px;
-  background-attachment: fixed; */
-  scroll-behavior: smooth;
+  background-image: url("img/sova.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 15px 35%;
+  background-attachment: fixed;
 }
 div {
   /* width: 100%; */
   /* height: auto; */
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 25px;
   padding: 30px;
 }
@@ -41,7 +31,7 @@ div {
 .wrapper {
   max-width: 850px;
   /* height: auto; */
-  background-color: rgb(17, 199, 108);
+  background-color: rgb(33, 0, 43);
   padding: 0;
   margin: 15px auto 25px auto;
 
@@ -55,108 +45,128 @@ div img {
   object-fit: cover; /* Вписываем фотографию в область */
 }
 
-.wrapper div p {
+.wrapper div p{
   margin: 15px 0;
-  text-indent: 10px; /* красная строка */
-  line-height: 28px;
+  text-indent: 10px; /* красн сторока */
   text-align: left;
 }
-
 .wrapper div h1,
-.wrapper div h2 {
+.wrapper div h2{
   margin: 25px 0;
-  /* text-align: center; */
+  text-align: center;
   font-size: 40px;
-  font-family: "Alumni Sans", sans-serif;
+  font-family: cursive;
 }
 
-.wrapper div {
+.wrapper div{
   text-align: center;
 }
-.wrapper div button {
-  background-color: rgba(18, 156, 48, 0.774);
+
+.wrapper div button{
+  background-color: rgba(175, 0, 146, 0.733);
   padding: 25px;
   border-radius: 15px;
   font-size: 40px;
-  font-family: "Alumni Sans", sans-serif;
-  color: rgb(245, 235, 235);
+  font-family: cursive;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-  transition: 0.5s; /* анимация простейшая */
+  transition: .5s;
 }
 
-.wrapper div button:hover {
-  background-color: rgba(18, 20, 156, 0.774);
-  border-radius: 5px;
+.wrapper div button:hover{
+  background-color: rgba(95, 0, 133, 0.856);
+  border-radius: 50px;
 }
 
-/* -------- меню сайта ------------- */
+/* --------------SITE MENU-------------- */
 
 .menuTop,
-.menuFooter {
-  background-color: #444;
-  /* line-height: 150px; */
+.menuFooter{
+  background-color: rgb(0, 23, 65);
   display: flex;
 }
 
-.logo {
-  width: 120px;
+.logo{
+  width: 150px;
   margin: 15px;
+  
 }
 
-.linkLogo {
+.Linklogo{
+  
 }
 
-nav ul {
+nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-nav ul li {
+nav ul li{
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 60px;
 }
 
-nav ul li a {
+nav ul li a{
   color: #fff;
-  font-size: 40px;
-  font-family: "Alumni Sans", sans-serif;
+  font-family: cursive;
   text-decoration: none;
-  transition: 1s; /* анимация простейшая */
+  transition: 1s;
+  font-size: 35px;
 }
 
-nav ul li a:hover {
-  color: red;
-  border-bottom: 10px solid red;
+nav li a:hover{
+  color: rgb(104, 0, 145);
+  border-bottom: 10px solid rgb(104, 0, 145);
 }
 
-.art1 {
-  background-image: url("img/fon/Screenshot_1.jpg");
+.art1{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Field-with-snow-champ-enneige.jpg/640px-Field-with-snow-champ-enneige.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.art2 {
-  background-image: url("img/fon/Screenshot_2.jpg");
+
+.art2{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Field-with-snow-champ-enneige.jpg/640px-Field-with-snow-champ-enneige.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.art3 {
-  background-image: url("img/fon/Screenshot_3.jpg");
+
+.art3{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Field-with-snow-champ-enneige.jpg/640px-Field-with-snow-champ-enneige.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.art4 {
-  background-image: url("img/fon/Screenshot_4.jpg");
+
+.art4{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Field-with-snow-champ-enneige.jpg/640px-Field-with-snow-champ-enneige.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.art5 {
-  background-image: url("img/fon/Screenshot_5.jpg");
+
+.art5{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Field-with-snow-champ-enneige.jpg/640px-Field-with-snow-champ-enneige.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+footer{
+  background-color: rgb(0, 12, 36);
+  text-align: center;
+  color: #ababab;
+}
+
+footer a{
+  color: #ababab;
+  display: inline-block;
+  margin: 25px;
+}
+
+footer a:hover{
+  color: #fff;
 }
